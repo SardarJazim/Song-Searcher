@@ -39,9 +39,19 @@ readme_content = """
 Follow the steps below to set up and run the project locally:
 
 ### 1. **Project Structure**
-Ensure your project directory is organized as follows:
 
-song_searcher/ ├── app.py # Flask application ├── sbert_finetuned/ # Folder containing fine-tuned SBERT model ├── models/ │ ├── song_data_with_embeddings.pkl # Preprocessed song data with embeddings │ └── cleaned_mapping.pkl # Mapping file (song ID to title/artist) ├── static/ │ └── style.css # Optional CSS for styling └── templates/ ├── base.html # Base HTML template └── index.html # Main search page
+song_searcher/
+  ├── app.py                    # Flask application
+  ├── sbert_finetuned/          # Folder containing fine-tuned SBERT model
+  ├── models/                   # Folder for preprocessed data
+  │   ├── song_data_with_embeddings.pkl  # Preprocessed song data with embeddings
+  │   └── cleaned_mapping.pkl            # Mapping file (song ID to title/artist)
+  ├── static/                   # Folder for static files
+  │   └── style.css             # Optional CSS for styling
+  └── templates/                # Folder for HTML templates
+      ├── base.html             # Base HTML template
+      └── index.html            # Main search page
+
 
 yaml
 Copy code
