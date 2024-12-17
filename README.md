@@ -48,4 +48,24 @@ song_searcher/
       ├── base.html             # Base HTML template
       └── index.html            # Main search page
 ```
-hello
+## 2. **Environment Setup**
+
+### Create and activate a virtual environment:
+
+#### For **Windows**:
+```bash
+python -m venv venv
+.\venv\Scripts\activate
+```
+
+#### For **Linux/Mac**:
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+#### Requirement.txt
+flask
+sentence-transformers
+rank-bm25
+nltk
+pandas
