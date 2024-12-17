@@ -47,3 +47,5 @@ song_searcher/
   └── templates/                # Folder for HTML templates
       ├── base.html             # Base HTML template
       └── index.html            # Main search page
+```
+hello
