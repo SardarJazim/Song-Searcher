@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div>
+    <h2>Search for Songs</h2>
+    <form method="POST" action="/search">
+        <input type="text" name="lyrics" placeholder="Enter partial lyrics" required>
+        <button type="submit">Search</button>
+    </form>
+
+    {% if results %}
+    <h3>Results for "{{ query }}"</h3>
+    <ul>
+        {% for result in results %}
+        <li>{{ result }}</li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+</div>
+{% endblock %}
