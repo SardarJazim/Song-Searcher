@@ -80,5 +80,4 @@ source venv/bin/activate
 2. Update the **GitHub repository URL** (if applicable) under the "Clone the Repository" section.
 3. Ensure all referenced files (`song_data_with_embeddings.pkl`, `cleaned_mapping.pkl`, etc.) are placed correctly.
 
-Let me know if you’d like any additional details or adjustments! 🚀
 ```
