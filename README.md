@@ -64,8 +64,21 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 #### Requirement.txt
-flask
-sentence-transformers
-rank-bm25
-nltk
-pandas
+- flask
+- sentence-transformers
+- rank-bm25
+- nltk
+- pandas
+
+### 🧑‍💻 **Author**
+  - Sardar Jazim - Developer and NLP Enthusiast
+
+  
+### **How to Use This File**
+```yaml
+1. Save the text above in a file named **`README.md`** in the root directory of your project.
+2. Update the **GitHub repository URL** (if applicable) under the "Clone the Repository" section.
+3. Ensure all referenced files (`song_data_with_embeddings.pkl`, `cleaned_mapping.pkl`, etc.) are placed correctly.
+
+Let me know if you’d like any additional details or adjustments! 🚀
+```
